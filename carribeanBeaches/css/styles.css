@@ -1,0 +1,186 @@
+/* CSS Document */
+
+/* Font Families:
+"Montserrat"
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+/* CSS Reset */
+
+body, header, h2, nav, main, footer {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+/* Style rules for body area */
+body {
+	background-color: #6DC5C8;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+#hero {
+	background-image: url("../images/home_Beach.jpg");
+	background-size: cover;
+	width: 42%;
+	background-repeat: no-repeat;
+	min-height: 410px;
+	margin: 0 auto;
+	border-radius: 12px;
+	margin-bottom: 3%;
+}
+
+#hero2 {
+	background-image: url("../images/trunkBayBeach.jpg");
+	background-size: cover;
+	width: 43%;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	margin: 0 auto;
+	border-radius: 12px;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+#hero3 {
+	background-image: url("../images/ShoalBayEast.jpg");
+	background-size: cover;
+	width: 47%;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+#hero4 {
+	background-image: url("../images/GraceBayBeach.jpg");
+	background-size: cover;
+	width: 47%;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+img {
+	border-radius: 10px;
+}
+
+/* Style rules for navigation */
+nav {
+	
+}
+
+nav li {
+	list-style-type: none;
+	padding: 2%;
+	margin: 1%;
+	display: inline-block;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #F5E5AF;
+	font-size: 1.5em;
+	padding: 10%;
+	border-radius: 20px;
+	font-family: "Montserrat", sans-serif;
+}
+
+nav li a:hover {
+	background-color: #F5E5AF;
+	color: #F9F5E3;
+}
+
+/* Style rules for main */
+main {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+main p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.6em;
+	padding: 1%;
+	background-color: #43B0B2;
+	border-radius: 10px;
+}
+
+/* Style rules for form */
+form {
+	font-size: 1.85em;
+}
+
+blockquote {
+	clear: both;
+	margin-bottom: 5%;
+	font-size: 3.35em;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+tr {
+	
+}
+
+td {
+	padding: 10px 0;
+}
+
+table {
+	width: 100%;
+}
+
+label {
+	padding: 0 15px;
+	font-size: 1.65em;
+	font-family: "Montserrat", sans-serif;
+	color: #000;
+}
+
+input {
+	height: 1.95em;
+	width: 10em;
+	border-radius: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 1.3em;
+	font-weight: bold;
+	background-color: #57D4D0;
+	color: #fff;
+	border: 5px double #fff;
+}
+
+.frmButton {
+	margin-left: 62%;
+	margin-top: 5%;
+	margin-bottom: 7%;
+	font-family: "Montserrat", sans-serif;
+}
+
+.frmButton:hover {
+	background-color: #43B0B2;
+	color: #3EDFE2;
+}
+
+/* Style rules for footer */
+footer {
+	padding: 2%;
+	background-color: #3EDFE2;
+}
+
+footer p {
+	margin: 0 auto;
+	text-align: center;
+}
